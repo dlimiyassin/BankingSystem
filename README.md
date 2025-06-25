@@ -6,19 +6,18 @@ It supports core operations such as **depositing**, **withdrawing**, and **print
 ---
 
 ## 📁 Project Structure
-
+```
 src/
 ├── models/
-│ └── Transaction.java # Transaction model (amount, balance, date)
+│   └── Transaction.java          # Transaction model (amount, balance, date)
 ├── services/
-│ └── facade/
-│ └── AccountService.java # Service interface
-│ └── impl/
-│ └── Account.java # Account implementation with transaction logic
+│   └── facade/
+│       └── AccountService.java   # Service interface
+│   └── impl/
+│       └── Account.java          # Account implementation with transaction logic
 └── test/
-└── AccountTest.java # JUnit test class
-
-
+    └── AccountTest.java          # JUnit test class
+```
 ---
 
 ## ✅ Features
