@@ -6,6 +6,7 @@ It supports core operations such as **depositing**, **withdrawing**, and **print
 ---
 
 ## 📁 Project Structure
+
 src/
 ├── models/
 │ └── Transaction.java # Transaction model (amount, balance, date)
